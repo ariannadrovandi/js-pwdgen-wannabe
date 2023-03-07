@@ -12,13 +12,13 @@ if (nomeUtente && cognomeUtente && colorePreferito) {
     }
     else {
         document.getElementById('pswd').innerHTML = `
-        <h1>Inserisci valori validi</h1>
+        <h1>Inserisci i tuoi dati correttamente per favore. (I campi non posso essere vuoti e possono contenere solo testo)</h1>
         `;
     } 
     
 } else {
     document.getElementById('pswd').innerHTML = `
-    <h1>Inserisci valori validi</h1>
+    <h1>Inserisci i tuoi dati correttamente per favore. (I campi non posso essere vuoti e possono contenere solo testo)</h1>
     `;
 }
 console.log(nomeUtente + cognomeUtente + colorePreferito +21);
